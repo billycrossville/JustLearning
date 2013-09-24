@@ -1,0 +1,29 @@
+Python 2.7.3 (default, Apr 10 2012, 23:31:26) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> Python 2.7.3 (default, Apr 10 2012, 23:31:26) [MSC v.1500 32 bit (Intel)] on win
+32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> number1 = int(raw_input("Enter number."))
+Enter number.23
+>>> number2 = int(raw_input("Enter number."))
+Enter number.24
+>>> add = (number1 + number2)
+>>> subtract = (number1 - number2)
+>>> add
+47
+>>> subtract
+-1
+>>> basicmathfunction = (add, subtract)
+>>> print
+
+>>> print (number1,number2,basicmathfunction)
+(23, 24, (47, -1))
+>>> number1
+23
+>>> number2
+24
+>>> subtract
+-1
+>>> add
+47
+>>>
